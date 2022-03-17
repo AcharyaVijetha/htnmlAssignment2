@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Student Registration form</title>
+    </head>
+    <body>
+      <form action="#">
+          <fieldset style="max-width: 500px">
+               <legend>Student Registration Form</legend>
+
+               <Label for="n">Name</Label>
+               <input type="text" placeholder="your name"  id="n" required><br />
+
+               <Label for ="ad">Address</Label>
+               <input type="text" placeholder="your Address" id="ad" required><br />
+               
+                <Label for ="email">EMAIL</Label>
+                <input type="text" placeholder="your mail" id="email"  required><br />
+
+                <Label for ="t">mobile</Label>
+               <input type="tel" placeholder="your Address" id="t" required><br />
+
+               <label>Date of Birth</label>
+               <input type="date" ><br />
+
+               <fieldset style="max-width:500px">
+               <Label for ="ct">City</Label>
+               <input list="city" placeholder="your city name" id="ct" required><br />
+                <datalist id="city">
+                    <option>udupi</option><br />
+                    <option>manglore</option><br />
+                    <option>chikmangglur</option><br />
+                    <option>banglore</option><br />
+                    <option>shimoga</option> <br />
+                     <option>hassan</option><br />
+                </datalist>
+                </fieldset>
+               
+               <fieldset style="max-width:500px">
+                  <legend >select course</legend>
+                   <select name="course">
+                   <option>java</option><br />
+                   <option>javascript</option><br />
+                   <option>html</option><br />
+                   <option>css</option><br />
+                   <option>c</option><br />
+                   <option>c++</option><br />
+                   </select>
+                  </fieldset>
+
+            <fieldset style="max-width:500px">
+              <legend>Hobbies</legend>
+              <input type="checkbox" value="cooking">
+               <label>cooking"</label><br/>
+               <input type="checkbox" value="craft">
+               <label>"craft"</label><br/>
+               <input type="checkbox" value="drawing">
+               <label>"drawing"</label><br/>
+            </fieldset>
+
+               <fieldset style="max-width:500px">
+               <legend>TimeSlot</legend>
+                <input type="radio" value="timeslot" id="c2">
+               <label for="c2">Morning</label>
+               <input type="radio" value="timeslot" id="c1">
+               <label for="c1">Afternoon</label>
+               <input type="radio" value="timeslot" id="c3">
+               <label for="c3">Afternoon</label>
+              </fieldset>
+
+             <input type="submit"    value="submit">
+             <input type="reset"    value="reset">
+          </fieldset>
+        </form>  
+    </body>
+</html>
